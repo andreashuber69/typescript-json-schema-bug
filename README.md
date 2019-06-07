@@ -1,1 +1,1 @@
-# typescript-json-schema.bug
+# typescript-json-schema-bug

@@ -1,0 +1,25 @@
+{
+  "name": "typescript-json-schema-bug",
+  "author": {
+    "name": "Andreas Huber Dönni"
+  },
+  "keywords": [
+    "typescript-json-schema",
+    "bug"
+  ],
+  "description": "Reproduces schema generation bug",
+  "homepage": "https://github.com/andreashuber69/typescript-json-schema-bug/blob/master/README.md",
+  "version": "1.0.0",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreashuber69/typescript-json-schema-bug.git"
+  },
+  "private": true,
+  "scripts": {
+    "start": "typescript-json-schema './tsconfig.json' '*' --required --aliasRefs --include 'src/model/validation/schemas/*.ts' --out 'src/model/validation/schemas/All.schema.json'"
+  },
+  "dependencies": {
+    "typescript-json-schema": "^0.38.3"
+  }
+}
