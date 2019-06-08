@@ -9,6 +9,4 @@ export interface IAssetIntersection extends IAssetPropertiesIntersection {
 
 export type AssetPropertyName = keyof IAssetPropertiesIntersection;
 
-export const allAssetPropertyNames: AssetPropertyName[] = [
-    "description", "location", "notes", "value"
-];
+export const allAssetPropertyNames: AssetPropertyName[] = ["value"];

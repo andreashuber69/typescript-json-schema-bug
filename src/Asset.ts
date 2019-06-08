@@ -5,7 +5,6 @@ import { AssetTypeName } from "./schemas/AssetTypeName";
 /** Defines the base of all classes that represent an asset. */
 export abstract class Asset {
     public static readonly typeName = Asset.getPropertyName("type");
-    public static readonly locationName = Asset.getPropertyName("location");
 
     public abstract get type(): AssetTypeName | "";
 

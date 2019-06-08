@@ -1,5 +1,3 @@
-import { IAssetProperties } from "./IAssetProperties";
-
-export interface IMiscAssetProperties extends IAssetProperties {
+export interface IMiscAssetProperties {
     readonly value: number;
 }
