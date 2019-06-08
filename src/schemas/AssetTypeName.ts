@@ -1,3 +1,1 @@
-import { AssetType } from "../AssetType";
-
-export type AssetTypeName = keyof typeof AssetType;
+export type AssetTypeName = "Gold" | "Silver" | "Misc";
