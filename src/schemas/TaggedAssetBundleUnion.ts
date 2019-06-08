@@ -1,3 +1,1 @@
-import { IMiscAssetBundle } from "./IMiscAssetBundle";
-
-export type AssetBundleUnion = IMiscAssetBundle;
+export type AssetBundleUnion = number;
