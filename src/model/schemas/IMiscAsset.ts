@@ -1,4 +1,4 @@
-import { IMiscAssetProperties } from "../../IMiscAssetProperties";
+import { IMiscAssetProperties } from "../IMiscAssetProperties";
 
 export const miscAssetTypeNames = ["Misc"] as const;
 

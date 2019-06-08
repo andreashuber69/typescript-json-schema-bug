@@ -1,5 +1,5 @@
 import { Asset } from "./Asset";
-import { AssetBundleUnion } from "./validation/schemas/TaggedAssetBundleUnion";
+import { AssetBundleUnion } from "./schemas/TaggedAssetBundleUnion";
 
 export abstract class AssetBundle {
     public abstract get assets(): Asset[];

@@ -1,5 +1,5 @@
 import { IMiscAssetProperties } from "./IMiscAssetProperties";
-import { AssetTypeName } from "./validation/schemas/AssetTypeName";
+import { AssetTypeName } from "./schemas/AssetTypeName";
 
 export type IAssetPropertiesIntersection = IMiscAssetProperties;
 

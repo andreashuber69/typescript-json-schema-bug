@@ -1,3 +1,3 @@
-import { Asset } from "../../Asset";
+import { Asset } from "../Asset";
 
 export type GroupBy = typeof Asset.typeName | typeof Asset.locationName;

@@ -1,6 +1,6 @@
 import { AssetBundle } from "./AssetBundle";
 import { IAssetIntersection } from "./AssetInterfaces";
-import { AssetTypeName } from "./validation/schemas/AssetTypeName";
+import { AssetTypeName } from "./schemas/AssetTypeName";
 
 /** Defines the base of all classes that represent an asset. */
 export abstract class Asset {
