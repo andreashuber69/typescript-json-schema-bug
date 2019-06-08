@@ -1,7 +1,11 @@
 import { Asset } from "./Asset";
 import { AssetBundleUnion } from "./schemas/TaggedAssetBundleUnion";
 
-export abstract class AssetBundle {
-    public abstract get assets(): Asset[];
-    public abstract toJSON(): AssetBundleUnion;
+export class AssetBundle {
+    public constructor(public readonly assets: Asset[]) {
+    }
+
+    public toJSON(): AssetBundleUnion {
+        return 42;
+    }
 }
